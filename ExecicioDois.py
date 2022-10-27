@@ -1,7 +1,10 @@
-# Crie um programa que contenha as variáveis a,b.
+# Crie um programa que contenha as variáveis a, b.
 
-a:str = input("Digite um nome: ")
-print("O nome é " + str(a))
+caractere= input("Digite um nome: ")
 
-b:int = input("Digite um número: ")
-print("O número é " + str(b))
+inteiro = int(input("Digite um número: "))
+
+print("A variável é do tipo:", type(caractere))
+print("O texto digitado foi:", caractere)
+print("A variável é do tipo:", type(inteiro))
+print("A variável é do tipo:", inteiro)
