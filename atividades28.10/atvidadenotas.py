@@ -5,6 +5,7 @@ bimestreQuatro = float(input("Digite a nota para o quarto bimestre: (Valor de 0 
 
 notaFinal = (bimestreUm + bimestreDois + bimestreTres + bimestreQuatro)
 
+print("a nota anual do aluno foi: " , notaFinal)
 if (notaFinal >= 60):
     print("O aluno estar aprovado")
 elif(notaFinal <40):
