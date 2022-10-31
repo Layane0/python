@@ -6,10 +6,12 @@ bimestreQuatro = float(input("Digite a nota para o quarto bimestre: (Valor de 0 
 notaFinal = (bimestreUm + bimestreDois + bimestreTres + bimestreQuatro)
 
 print("a nota anual do aluno foi: " , notaFinal)
-if (notaFinal >= 60):
-    print("O aluno estar aprovado")
-elif(notaFinal <40):
-    print("O aluno estará reprovado")
-elif(notaFinal <60 or notaFinal <=40):
-    print("O aluno estar de recuperação")
 
+if (notaFinal >= 60 and notaFinal<=100):
+    print("O aluno está aprovado")
+elif(notaFinal <60 and notaFinal <=40):
+    print("O aluno está de recuperação")
+elif(notaFinal <40 and notaFinal >=0):
+    print("O aluno está reprovado")
+else:
+        print("Confirme os valores digitados, valor inválido")
