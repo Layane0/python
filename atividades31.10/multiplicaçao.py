@@ -5,18 +5,14 @@
 lista = [0,0,0,0,0,0,0,0,0,0]
 
 for i in range(10):
-        lista[i] = str(input("Digite uma letra para cada posição: "))
-vogal = input,("a" , "e" , "i" , "o" , "u")
-vogal = input("Digite uma vogal para localizar na vetor") \
-encontrado = False
+    lista[i] = input("Digite uma letra para cada posição " + str(i)+ ":"  )
+print(lista[i])
+
+consoante =0
 
 for i in range(10):
-        if(lista[i] == n1):
-            print("Consoante encontrado: ", vogal,"na posição",lista[i])
-        encontrado = True
+    if not(lista[i] == str ('a') or lista[i] == str ('e') or lista[i] == str ('i') or lista[i] == str ('o') or lista[i] == str ('u') ):
+        print("consoante na posição "+ str(i+1)+ ":" , lista[i])
+        consoante=consoante+1
 
-if(encontrado is False):
-    print("Não foi encontrado na busca sua letra")
-print(lista)
-
-
+print("a quantidade de consoante é: " , consoante)
