@@ -6,8 +6,8 @@ lista = [0,0,0,0,0,0,0,0,0,0]
 
 for i in range(10):
         lista[i] = str(input("Digite uma letra para cada posição: "))
-vogal = inputm,("a" , "e" , "i" , "o" , "u")
-vogal = input("Digite uma vogal para localizar na vetor"))
+vogal = input,("a" , "e" , "i" , "o" , "u")
+vogal = input("Digite uma vogal para localizar na vetor") \
 encontrado = False
 
 for i in range(10):
