@@ -22,4 +22,3 @@ elif(notaFinal <40):
     print("O aluno estará reprovado")
 elif(notaFinal <60 or notaFinal <=40):
     print("O aluno estar de recuperação")
-
